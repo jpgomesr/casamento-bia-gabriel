@@ -1,6 +1,7 @@
 import InformacoesCasal from "@/components/casal/InformacoesCasal";
 import InformacoesCerimonia from "@/components/cerimonia/InformacoesCerimonia";
 import InformacoesHome from "@/components/home/InformacoesHome";
+import InformacoesRecepcao from "@/components/recepcao/InformacoesRecepcao";
 import React from "react";
 
 const page = () => {
@@ -9,6 +10,7 @@ const page = () => {
          <InformacoesHome />
          <InformacoesCasal />
          <InformacoesCerimonia />
+         <InformacoesRecepcao />
       </div>
    );
 };

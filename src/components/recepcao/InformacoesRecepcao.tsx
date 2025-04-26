@@ -1,14 +1,14 @@
 import React from "react";
 
-const InformacoesCerimonia = () => {
+const InformacoesRecepcao = () => {
    return (
       <div
          className="min-h-screen flex flex-col justify-center items-center px-4 py-8 sm:py-12"
-         id="cerimonia"
+         id="recepcao"
       >
          <div className="max-w-3xl mx-auto text-center space-y-4 sm:space-y-6">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-['Playfair_Display'] font-medium text-gray-900 mb-2 sm:mb-4">
-               Nossa Cerimônia
+               Recepção
             </h2>
 
             <div className="relative mx-4 sm:mx-8">
@@ -20,23 +20,23 @@ const InformacoesCerimonia = () => {
                      <span className="block text-2xl sm:text-3xl text-gray-400 mb-2 sm:mb-3">
                         "
                      </span>
-                     Nossos votos serão trocados na Igreja Matriz de São
-                     Sebastião, onde nossas famílias se unem em fé há gerações.
+                     Celebraremos nosso amor com uma festa inesquecível, onde
+                     cada momento será marcado por alegria e felicidade.
                      <span className="block text-2xl sm:text-3xl text-gray-400 mt-2 sm:mt-3 text-right">
                         "
                      </span>
                   </p>
 
                   <div className="space-y-2 text-base sm:text-lg font-normal">
-                     <p>Às 16:30 horas</p>
-                     <p>Igreja Matriz de São Sebastião</p>
-                     <p>Rua das Flores, 123 - Centro</p>
+                     <p>Às 19:00 horas</p>
+                     <p>Salão de Eventos Jardim das Flores</p>
+                     <p>Av. das Palmeiras, 456 - Centro</p>
                      <p>Jaraguá do Sul, SC</p>
                   </div>
 
                   <p className="font-light">
-                     A cerimônia terá duração de aproximadamente 1 hora, seguida
-                     por saída dos noivos sob chuva de pétalas.
+                     A recepção terá início após a cerimônia, com jantar, música
+                     ao vivo e muita dança.
                   </p>
                </div>
             </div>
@@ -49,4 +49,4 @@ const InformacoesCerimonia = () => {
    );
 };
 
-export default InformacoesCerimonia;
+export default InformacoesRecepcao;
