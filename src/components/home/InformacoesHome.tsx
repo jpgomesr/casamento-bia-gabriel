@@ -20,10 +20,13 @@ const InformacoesHome = () => {
                <button
                   className="bg-gray-200/50 p-1.5 sm:p-2 rounded-full hover:scale-105 transition-all duration-300 cursor-pointer"
                   onClick={() => {
-                     animateScroll.scrollTo(window.innerHeight, {
-                        duration: 1500,
-                        smooth: "easeInOutQuint",
-                     });
+                     const element = document.getElementById("casal");
+                     if (element) {
+                        animateScroll.scrollTo(element.offsetTop, {
+                           duration: 1500,
+                           smooth: "easeInOutQuint",
+                        });
+                     }
                   }}
                >
                   <ArrowDown className="w-8 h-8 sm:w-10 sm:h-10 transition-transform duration-700" />
